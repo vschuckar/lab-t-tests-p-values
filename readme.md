@@ -4,15 +4,15 @@
 
 ### Instructions
 
-1. *One tailed t-test* - In a packing plant, a machine packs cartons with jars. It is supposed that a new machine will pack faster on the average than the machine currently used. To test that hypothesis, the times it takes each machine to pack ten cartons are recorded. The results, in seconds, are shown in the tables in the file `files_for_lab/machine.txt`.
-   Assume that there is sufficient evidence to conduct the t test, does the data provide sufficient evidence to show if one machine is better than the other?
+1. *One-tailed t-test* - In a packing plant, a machine packs cartons with jars. It is supposed that a new machine will pack faster on average than the machine currently used. To test that hypothesis, the times each machine takes to pack ten cartons are recorded. The results are in seconds in the tables in the file `files_for_lab/machine.txt`.
+   Assume that there is sufficient evidence to conduct the t-test, does the data provide sufficient evidence to show if one machine is better than the other?
 
-2. *Matched Pairs Test* - In this challenge we will compare dependent samples of data describing our Pokemon (file `files_for_lab/pokemon.csv`). Our goal is to see whether there is a significant difference between each Pokemon's defense and attack scores. Our hypothesis is that the defense and attack scores are equal. Compare the two columns to see if there is a statistically significant difference between them and comment your result.
+2. *Matched Pairs Test* - In this challenge we will compare dependent samples of data describing our Pokemon (file `files_for_lab/pokemon.csv`). Our goal is to see whether there is a significant difference between each Pokemon's defense and attack scores. Our hypothesis is that the defense and attack scores are equal. Compare the two columns to see if there is a statistically significant difference between them and comment on your result.
 
 
-# OPTIONAL PART | Inferential statistics - ANOVA
+# Inferential statistics - ANOVA
 
-Note: The following lab is divided in 2 sections which represent activities 3 and 4.
+Note: The following lab is divided into 2 sections which represent activities 3 and 4.
 
 ## Part 1
 
@@ -31,12 +31,12 @@ Suppose you are working as an analyst in a microprocessor chip manufacturing pla
 - State the null hypothesis
 - State the alternate hypothesis
 - What is the significance level
-- What are the degrees of freedom of model, error terms, and total DoF
+- What are the degrees of freedom of the model, error terms, and total DoF
 
-Data was collected randomly and provided to you in the table as shown: [link to the image - Data](https://education-team-2020.s3-eu-west-1.amazonaws.com/data-analytics/7.05/7.05-lab_data.png)
+Data were collected randomly and provided to you in the table as shown: [link to the image - Data](https://education-team-2020.s3-eu-west-1.amazonaws.com/data-analytics/7.05/7.05-lab_data.png)
 
 
 ## Part 2
 
-- In this section, use the Python to conduct ANOVA.
+- In this section, use Python to conduct ANOVA.
 - What conclusions can you draw from the experiment and why?
